@@ -1,0 +1,38 @@
+# ----------------------------------------------------------------------------
+#
+# parameters.in
+#
+# ----------------------------------------------------------------------------
+
+# Give the value for each parameters below. Or comment it by using the default
+
+# ----------------------------------------------------------------------------
+# file information
+# ----------------------------------------------------------------------------
+# input file directory. Default: ./
+input_file_directory    = ./
+
+# the wildcard name for the input files. Default: *.sac
+input_filename_wildcard = *.sac
+
+# output filename by appending the string on the input file name. Default: .designaled
+output_filename_append  = .designaled
+
+# ----------------------------------------------------------------------------
+# designal parameters
+# ----------------------------------------------------------------------------
+# designal (0) or denoise (1). Default: 0
+designal_or_denoise     = 0
+
+# number of voices in cwt. Default: 16
+number_of_voice         = 16
+
+# if denoise for EGF
+# start time of the noise
+noise_start_time =
+# end time of the noise
+noise_end_time =
+
+# if designal for ambient nosie data
+# number of segments that the data are divided into to estimate noise. Default: 48
+number_of_segment = 48
